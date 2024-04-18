@@ -1,7 +1,10 @@
 .title{
-    font-weight: 90px;
-    font-family: 'Merriweather', serif ;
-    color: #707070 ;
-    width: 950px ;
-    height: 113px;
+    font-family: 'Merriweather', sans-serif ;
+}
+
+.title h2{
+
+    margin-top: 130px ;
+    font-size: 90px ;
+    color: #707070;
 }
