@@ -1,17 +1,19 @@
-.listComponent .ListItem::before{
+.listComponent .listItem::before{
+    counter-increment: listItem;
+    content: "0" counter(listItem) ".";
     display: block;
     border-bottom: #707070 1px solid;
     font-size: 70px;
-    counter-increment: ListItem;
-    content: "0" counter(ListItem) ".";
     color: #707070;
     font-family: "Merriweather", serif;
+    padding-top: 104px;
 }
 
 .listComponent ol{
     list-style: none;
     padding : 0 ;
-    counter-reset: listitem;
+    counter-reset: listItem;
+    
 }
  
 .link{
