@@ -1,7 +1,28 @@
-.listComponent li{
+.listComponent .ListItem::before{
     display: block;
+    border-bottom: #707070 1px solid;
+    font-size: 70px;
+    counter-increment: ListItem;
+    content: "0" counter(ListItem) ".";
+    color: #707070;
+    font-family: "Merriweather", serif;
 }
 
 .listComponent ol{
     list-style: none;
+    padding : 0 ;
+    counter-reset: listitem;
+}
+ 
+.link{
+    color: #FF0000;
+    margin-top: 34px;
+}
+
+.stile{
+    margin-top: 15px;
+    color: #707070;
+    font-family: "Merriweather", serif;
+    font-size: 22px;
+
 }
